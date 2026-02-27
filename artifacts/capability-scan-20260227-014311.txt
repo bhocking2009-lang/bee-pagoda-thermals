@@ -1,0 +1,300 @@
+# Bee Pagoda capability scan
+timestamp: 2026-02-27T01:43:11-05:00
+
+== Host ==
+ Static hostname: Saory
+       Icon name: computer-desktop
+         Chassis: desktop 🖥️
+      Machine ID: bbe337880c4249a29896dfc5d97e0869
+         Boot ID: 5ce04f9d36d14855a7b4394c04052c83
+Operating System: Ubuntu 24.04.4 LTS
+          Kernel: Linux 6.17.0-14-generic
+    Architecture: x86-64
+ Hardware Vendor: ASUS
+  Hardware Model: ROG STRIX B550-F GAMING WIFI II
+Firmware Version: 3611
+   Firmware Date: Sun 2024-09-29
+    Firmware Age: 1y 4month 4w 1d
+
+== OS/Kernel ==
+Linux Saory 6.17.0-14-generic #14~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Jan 15 15:52:10 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+PRETTY_NAME="Ubuntu 24.04.4 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.4 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+
+== CPU ==
+Architecture:                            x86_64
+CPU op-mode(s):                          32-bit, 64-bit
+Address sizes:                           48 bits physical, 48 bits virtual
+Byte Order:                              Little Endian
+CPU(s):                                  24
+On-line CPU(s) list:                     0-23
+Vendor ID:                               AuthenticAMD
+Model name:                              AMD Ryzen 9 5900X 12-Core Processor
+CPU family:                              25
+Model:                                   33
+Thread(s) per core:                      2
+Core(s) per socket:                      12
+Socket(s):                               1
+Stepping:                                2
+Frequency boost:                         enabled
+CPU(s) scaling MHz:                      67%
+CPU max MHz:                             4954.5649
+CPU min MHz:                             567.0890
+BogoMIPS:                                7385.89
+Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local user_shstk clzero irperf xsaveerptr rdpru wbnoinvd arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm debug_swap
+L1d cache:                               384 KiB (12 instances)
+L1i cache:                               384 KiB (12 instances)
+L2 cache:                                6 MiB (12 instances)
+L3 cache:                                64 MiB (2 instances)
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-23
+Vulnerability Gather data sampling:      Not affected
+Vulnerability Ghostwrite:                Not affected
+Vulnerability Indirect target selection: Not affected
+Vulnerability Itlb multihit:             Not affected
+Vulnerability L1tf:                      Not affected
+Vulnerability Mds:                       Not affected
+Vulnerability Meltdown:                  Not affected
+Vulnerability Mmio stale data:           Not affected
+Vulnerability Old microcode:             Not affected
+Vulnerability Reg file data sampling:    Not affected
+Vulnerability Retbleed:                  Not affected
+Vulnerability Spec rstack overflow:      Mitigation; Safe RET
+Vulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:                Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds:                     Not affected
+Vulnerability Tsa:                       Vulnerable: No microcode
+Vulnerability Tsx async abort:           Not affected
+Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspace
+
+== GPU PCI ==
+08:00.0 VGA compatible controller [0300]: NVIDIA Corporation GA102 [GeForce RTX 3080] [10de:2206] (rev a1)
+
+== DMI/BIOS ==
+board_vendor: ASUSTeK COMPUTER INC.
+board_name: ROG STRIX B550-F GAMING WIFI II
+board_version: Rev X.0x
+bios_vendor: American Megatrends Inc.
+bios_version: 3611
+bios_date: 09/29/2024
+product_name: System Product Name
+product_version: System Version
+
+== Storage ==
+NAME          SIZE TYPE MODEL                                    SERIAL               MOUNTPOINT
+loop0           4K loop                                                               /snap/bare/5
+loop1          13M loop                                                               /snap/canonical-livepatch/378
+loop2        13.4M loop                                                               /snap/canonical-livepatch/384
+loop3        63.8M loop                                                               /snap/core20/2717
+loop4          74M loop                                                               /snap/core22/2292
+loop5          74M loop                                                               /snap/core22/2339
+loop6        66.9M loop                                                               /snap/core24/1349
+loop7       158.9M loop                                                               /snap/dotnet-sdk-90/40
+loop8       251.7M loop                                                               /snap/firefox/7766
+loop9       251.6M loop                                                               /snap/firefox/7836
+loop10       18.5M loop                                                               /snap/firmware-updater/210
+loop11      531.4M loop                                                               /snap/gnome-42-2204/247
+loop12       91.7M loop                                                               /snap/gtk-common-themes/1535
+loop13        1.6M loop                                                               /snap/llama/2
+loop14        395M loop                                                               /snap/mesa-2404/1165
+loop15       10.8M loop                                                               /snap/snap-store/1270
+loop16       48.1M loop                                                               /snap/snapd/25935
+loop17        576K loop                                                               /snap/snapd-desktop-integration/343
+loop18       96.2M loop                                                               /snap/vulkan-cts/3
+loop19       96.2M loop                                                               /snap/vulkan-cts/4
+nvme0n1     476.9G disk SOLIDIGM SSDPFKKW512H7                   SSB8N723611908T46    
+├─nvme0n1p1     1G part                                                               /boot/efi
+└─nvme0n1p2 475.9G part                                                               /
+nvme1n1     931.5G disk Samsung SSD 980 1TB                      S64ANG0R202853M      
+└─nvme1n1p1 931.5G part                                                               /media/openclaw/1
+nvme2n1       1.8T disk CT2000P2SSD8                             2113E591E35B         
+├─nvme2n1p1   512M part                                                               
+└─nvme2n1p2   1.8T part                                                               /media/openclaw/e2a23abe-0052-4722-9f01-bbed99d1abd1
+
+== hwmon ==
+total 0
+drwxr-xr-x  2 root root 0 Feb 27 01:39 .
+drwxr-xr-x 77 root root 0 Feb 27 01:39 ..
+lrwxrwxrwx  1 root root 0 Feb 26 19:01 hwmon0 -> ../../devices/pci0000:00/0000:00:01.1/0000:01:00.0/nvme/nvme0/hwmon0
+lrwxrwxrwx  1 root root 0 Feb 26 19:01 hwmon1 -> ../../devices/pci0000:00/0000:00:01.2/0000:02:00.2/0000:03:00.0/0000:04:00.0/nvme/nvme1/hwmon1
+lrwxrwxrwx  1 root root 0 Feb 26 19:01 hwmon2 -> ../../devices/pci0000:00/0000:00:01.2/0000:02:00.2/0000:03:04.0/0000:05:00.0/nvme/nvme2/hwmon2
+lrwxrwxrwx  1 root root 0 Feb 26 19:01 hwmon3 -> ../../devices/pci0000:00/0000:00:18.3/hwmon/hwmon3
+lrwxrwxrwx  1 root root 0 Feb 26 19:01 hwmon4 -> ../../devices/platform/asus-nb-wmi/hwmon/hwmon4
+lrwxrwxrwx  1 root root 0 Feb 26 19:01 hwmon5 -> ../../devices/pci0000:00/0000:00:01.2/0000:02:00.2/0000:03:08.0/0000:06:00.0/ieee80211/phy0/hwmon5
+lrwxrwxrwx  1 root root 0 Feb 26 19:50 hwmon6 -> ../../devices/pci0000:00/0000:00:01.2/0000:02:00.0/usb1/1-9/1-9:1.0/0003:056A:0376.000A/power_supply/wacom_battery_1/hwmon6
+[hwmon0] name=nvme
+temp1_input
+temp2_input
+temp3_input
+[hwmon1] name=nvme
+temp1_input
+temp2_input
+temp3_input
+[hwmon2] name=nvme
+temp1_input
+[hwmon3] name=k10temp
+temp1_input
+temp3_input
+temp4_input
+[hwmon4] name=asus
+[hwmon5] name=mt7921_phy0
+temp1_input
+[hwmon6] name=wacom_battery_1
+
+== thermal/fan services ==
+
+== fwupd ==
+compile   org.freedesktop.fwupd         1.9.33
+compile   com.hughsie.libxmlb           0.3.18
+compile   com.hughsie.libjcat           0.2.0
+runtime   org.freedesktop.fwupd-efi     1.4
+compile   org.freedesktop.gusb          0.4.8
+runtime   com.hughsie.libxmlb           0.3.x
+runtime   com.hughsie.libjcat           0.2.0
+runtime   org.freedesktop.gusb          0.4.8
+runtime   org.freedesktop.fwupd         1.9.33
+runtime   org.kernel                    6.17.0-14-generic
+
+ASUS System Product Name
+│
+├─AMD Ryzen 9 5900X 12-Core Processor:
+│ │   Device ID:          4bde70ba4e39b28f9eab1628f9dd6e6244c03027
+│ │   Current version:    0x0a201210
+│ │   Vendor:             Advanced Micro Devices, Inc.
+│ │   GUIDs:              af6af62f-513f-5d1b-8c80-23c44eafbe19 ← CPUID\PRO_0&FAM_19&MOD_21
+│ │                       066e2405-0349-51a6-be7f-923dbd4e9873 ← CPUID\PRO_0&FAM_19&MOD_21&STP_2
+│ │   Device Flags:       • Internal device
+│ │ 
+├─CT2000P2SSD8:
+│     Device ID:          310f45f1f223064b5c16bf6dff31146755a64480
+│     Summary:            NVM Express solid state drive
+│     Current version:    P2CR033
+│     Vendor:             Micron/Crucial Technology (NVME:0xC0A9)
+│     Serial Number:      2113E591E35B
+│     GUIDs:              024834f2-5768-5565-b929-e3f57c0fcd69 ← NVME\VEN_C0A9&DEV_540A
+│                         4da0af5a-3466-5105-bd08-6b090c2957fb ← NVME\VEN_C0A9&DEV_540A&SUBSYS_C0A9540A
+│                         51783fb1-e4bc-559d-9507-ae6817da6e87 ← CT2000P2SSD8
+│     Device Flags:       • Updatable
+│                         • System requires external power source
+│                         • Needs a reboot after installation
+│   
+├─GA102 [GeForce RTX 3080]:
+│     Device ID:          ce6d39e7c84738d80b6899f99329c88aacd67559
+│     Current version:    a1
+│     Vendor:             NVIDIA Corporation (PCI:0x10DE, PCI:0x1022)
+│     GUIDs:              4df9d475-cec3-5549-8bfc-24d4e242fa36 ← PCI\VEN_10DE&DEV_2206
+│                         56b633c2-db10-5370-a081-fdfe8ebceba3 ← PCI\VEN_10DE&DEV_2206&SUBSYS_38423885
+│                         2d530482-50db-5cbc-97f7-6ae02507276d ← PCI\VEN_1022&DEV_1483
+│                         096b5b3d-f21f-54a8-93a2-4ce108fa0f6f ← PCI\VEN_1022&DEV_1483&SUBSYS_10438808
+│     Device Flags:       • Internal device
+│                         • Cryptographic hash verification is available
+│   
+├─Intuos BT S:
+│ │   Device ID:          d432baa2162a32c1554ef24bd8281953b9d07c11
+│ │   Current version:    1.11
+│ │   Vendor:             Wacom Co.,Ltd. (USB:0x056A)
+│ │   Install Duration:   10 seconds
+│ │   GUID:               dc80ba55-c5f7-5195-b6f4-23c2940bcaec ← USB\VID_056A&PID_0376
+│ │   Device Flags:       • Updatable
+│ │                       • Unsigned Payload
+│ │ 
+│ ├─Intuos BT S [Legacy Bluetooth Module (ID6)]:
+│ │     Device ID:        08a67942cb0389528dfe714d251892cdb0f406c6
+│ │     Current version:  1.12
+│ │     Vendor:           Wacom Co.,Ltd. (USB:0x056A)
+│ │     Install Duration: 2 minutes
+│ │     GUID:             b9669244-e100-5564-b6f8-d0682e9e5d64 ← USB\VID_056A&PID_0376-bluetooth-id6
+│ │     Device Flags:     • Updatable
+│ │                       • Unsigned Payload
+│ │   
+│ └─Intuos BT S [Legacy Bluetooth Module]:
+│       Device ID:        4f67e45fdffa24ae36915665aa94096fc6ea8474
+│       Current version:  1.12
+│       Vendor:           Wacom Co.,Ltd. (USB:0x056A)
+│       Install Duration: 30 seconds
+│       GUID:             e317b626-4c1d-5892-8b4c-aafec894a4c9 ← USB\VID_056A&PID_0376-bluetooth
+│       Device Flags:     • Updatable
+│                         • Unsigned Payload
+│     
+├─SSD 980 1TB:
+│     Device ID:          04e17fcf7d3de91da49a163ffe4907855c3648be
+│     Summary:            NVM Express solid state drive
+│     Current version:    1B4QFXO7
+│     Vendor:             Samsung (NVME:0x144D)
+│     Serial Number:      S64ANG0R202853M
+│     GUIDs:              8b86707a-1412-5389-8f66-725224d28879 ← NVME\VEN_144D&DEV_A809
+│                         71c19ff0-0bc0-5c85-aa6f-ba47fcc33eee ← NVME\VEN_144D&DEV_A809&SUBSYS_144DA801
+│                         415e060d-f40b-5374-b825-5f2a8ad2eebe ← Samsung SSD 980 1TB
+│     Device Flags:       • Updatable
+│                         • System requires external power source
+│                         • Needs a reboot after installation
+│                         • Signed Payload
+│   
+├─SSDPFKKW512H7:
+│     Device ID:          71b677ca0f1bc2c5b804fa1d59e52064ce589293
+│     Summary:            NVM Express solid state drive
+│     Current version:    001C
+│     Vendor:             Solidigm (NVME:0x025E)
+│     Serial Number:      SSB8N723611908T46
+│     GUIDs:              f455a1a9-89a1-570f-93b6-5b877cc6e069 ← NVME\VEN_025E&DEV_F1AC
+│                         fcfa96fb-8d30-5536-a447-0e81b9460416 ← NVME\VEN_025E&DEV_F1AC&SUBSYS_025EF1AC
+│                         4605b93b-94cf-5d5d-8a00-0680fd1f0761 ← SOLIDIGM SSDPFKKW512H7
+│     Device Flags:       • Internal device
+│                         • Updatable
+│                         • System requires external power source
+│                         • Needs a reboot after installation
+│                         • Device is usable for the duration of the update
+│   
+├─System Firmware:
+│ │   Device ID:          5ee84ab6aba81b214d0203b3391b85de4e0a0608
+│ │   Summary:            UEFI System Resource Table device (updated via NVRAM)
+│ │   Current version:    13841
+│ │   Minimum Version:    13841
+│ │   Vendor:             ASUS (DMI:American Megatrends Inc.)
+│ │   Update State:       Success
+│ │   GUID:               3e0f32a6-5714-5fdb-bea5-980833c1f004
+│ │   Device Flags:       • Internal device
+│ │                       • Updatable
+│ │                       • System requires external power source
+│ │                       • Needs a reboot after installation
+│ │                       • Device is usable for the duration of the update
+│ │   Device Requests:    • Message
+│ │ 
+│ └─UEFI dbx:
+│       Device ID:        362301da643102b9f38477387e2193e57abaa590
+│       Summary:          UEFI revocation database
+│       Current version:  20230501
+│       Minimum Version:  20230501
+│       Vendor:           UEFI:Microsoft
+│       Install Duration: 1 second
+│       GUIDs:            f8ff0d50-c757-5dc3-951a-39d86e16f419 ← UEFI\CRT_D7F66BE77CEF858C174BF4338A99263C8795B74E02026411F5F532F716AE3263&ARCH_X64
+│                         f8ba2887-9411-5c36-9cee-88995bb39731 ← UEFI\CRT_A1117F516A32CEFCBA3F2D1ACE10A87972FD6BBE8FE0D0B996E09E65D802A503&ARCH_X64
+│                         d07ff664-b0e1-5f4e-a723-d7fbcbfcb94f ← UEFI\CRT_3CD3F0309EDAE228767A976DD40D9F4AFFC4FBD5218F2E8CC3C9DD97E8AC6F9D&ARCH_X64
+│       Device Flags:     • Internal device
+│                         • Updatable
+│                         • Needs a reboot after installation
+│                         • Device is usable for the duration of the update
+│                         • Only version upgrades are allowed
+│                         • Signed Payload
+│     
+Devices with no available firmware updates: 
+ • CT2000P2SSD8
+ • Intuos BT S
+ • Intuos BT S [Legacy Bluetooth Module (ID6)]
+ • Intuos BT S [Legacy Bluetooth Module]
+ • SSD 980 1TB
+ • SSDPFKKW512H7
+ • System Firmware
+ • UEFI dbx
