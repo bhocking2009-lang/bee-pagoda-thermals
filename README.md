@@ -28,3 +28,20 @@ Deliver a product former Windows users can trust:
 ```
 
 Artifacts are written under `artifacts/`.
+
+## Fan-Control Slice v1
+The first vertical slice now includes a minimal Python policy engine, helper envelope, conflict probing, and dry-run simulation CLI.
+
+Run tests:
+```bash
+python -m pytest
+```
+If `python` is unavailable, use `python3 -m pytest`. If `pytest` is missing, install it first with `python3 -m pip install pytest`.
+
+Run dry-run simulation (non-root):
+```bash
+./scripts/fan_control_sim.py --scenario success
+./scripts/fan_control_sim.py --scenario validation-fail-lockout
+```
+
+Each simulation prints structured JSON with final safety state, control decision, transitions, and audit events.
